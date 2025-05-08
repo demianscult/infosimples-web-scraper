@@ -43,7 +43,7 @@ O scraper que desenvolvi é capaz de extrair as seguintes informações da pági
 
 ## 🔴 Dificuldades Encontradas: 
 
-** Extração da seção "Product properties":**  
+**Extração da seção "Product properties":**  
 Durante o desenvolvimento, enfrentei dificuldades para extrair os dados da seção "Product properties" de forma consistente. As tentativas de seleção e interpretação da estrutura da tabela não retornaram os dados esperados. Para priorizar a entrega de um JSON funcional e respeitar o prazo, optei por remover temporariamente a extração dessa seção. Atualmente, o scraper coleta apenas os dados da seção "Additional properties".
 
 
