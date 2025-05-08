@@ -1,0 +1,98 @@
+{
+    "title": "Rubber Duck MK Ultra",
+    "brand": "Duck Makers Inc.",
+    "categories": [
+        "Eletronics",
+        "Home",
+        "Health & Care",
+        "Pets",
+        "Fashion",
+        "Toys & Games",
+        "Sports",
+        "Multimedia"
+    ],
+    "description": "Rubber ducks are the ultimate necessity for your bath. These duck-dings have been a popular source of...",
+    "skus": [
+        {
+            "name": "Rubber Duck MK Ultra - Original",
+            "current_price": 12.68,
+            "old_price": 16.98,
+            "available": true,
+            "sku": "S0002201"
+        },
+        {
+            "name": "Rubber Duck MK Ultra - Summer Version",
+            "current_price": null,
+            "old_price": null,
+            "available": false,
+            "sku": "S0002202"
+        },
+        {
+            "name": "Rubber Duck MK Ultra - Batman Version",
+            "current_price": 18.98,
+            "old_price": null,
+            "available": true,
+            "sku": "S0002203"
+        }
+    ],
+    "properties": [
+        {
+            "label": "Nutritious value",
+            "value": "-"
+        },
+        {
+            "label": "Origin",
+            "value": "Camboja"
+        },
+        {
+            "label": "Allergenics",
+            "value": "None"
+        },
+        {
+            "label": "Recyclable?",
+            "value": "Yes"
+        },
+        {
+            "label": "Harmful?",
+            "value": "No"
+        },
+        {
+            "label": "Health benefits",
+            "value": "None"
+        },
+        {
+            "label": "Storage temperature",
+            "value": "0 - 25ºC"
+        },
+        {
+            "label": "Expiration date",
+            "value": "None"
+        },
+        {
+            "label": "Carbon footprint",
+            "value": "65 g CO2"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Louisa Eliel",
+            "date": "28/07/2021",
+            "score": 4,
+            "text": "Very good rubber ducks, however I think they are a bit too big for me."
+        },
+        {
+            "name": "Kairo Josué",
+            "date": "12/05/2021",
+            "score": 1,
+            "text": "Péssima qualidade. Já não fazem patos de borracha como antigamente."
+        },
+        {
+            "name": "Victor Huey",
+            "date": "03/04/2021",
+            "score": 5,
+            "text": "Very good"
+        }
+    ],
+    "reviews_average_score": 3.3,
+    "url": "https://infosimples.com/vagas/desafio/commercia/product.html"
+}
