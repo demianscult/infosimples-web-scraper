@@ -10,9 +10,9 @@ Este projeto foi desenvolvido para o Take-Home Coding Challenge da Infosimples. 
 
 Para isso, utilizei as bibliotecas `requests` para realizar as chamadas HTTP e `beautifulsoup4` para manipular o HTML com seletores CSS. A formatação final dos dados foi feita com a biblioteca `json`.
 
-## 🔵 Funcionalidades Implementadas
+## 🔵 Funcionalidades Implementadas:
 
-O scraper que desenvolvi é capaz de extrair as seguintes informações da página:
+O scraper que desenvolvi é capaz de extrair as seguintes informações da página, seguindo o exemplo da tabela fornecida no desafio para estruturar os dados:
 
 * **Título do Produto:** o nome principal do produto.
 * **Marca:** a marca do produto.
