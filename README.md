@@ -14,15 +14,15 @@ Para isso, utilizei as bibliotecas `requests` para realizar as chamadas HTTP e `
 
 O scraper que desenvolvi é capaz de extrair as seguintes informações da página:
 
-* **Título do Produto:** O nome principal do produto.
-* **Marca:** A marca do produto.
-* **Categorias:** As categorias às quais o produto pertence (extraídas do breadcrumb).
-* **Descrição:** Uma breve descrição do produto.
-* **SKUs (Variações):** Informações sobre as diferentes variações do produto, incluindo nome, preço atual, preço antigo (se disponível), disponibilidade e SKU.
-* **Propriedades:** As propriedades listadas na seção "Additional properties" da página, no formato de "label": "value".
-* **Reviews:** As avaliações dos clientes, incluindo nome do avaliador, data da avaliação, pontuação (estrelas) e o texto da avaliação.
-* **Nota Média das Reviews:** A média das pontuações das avaliações.
-* **URL da Página:** A URL da página do produto.
+* **Título do Produto:** o nome principal do produto.
+* **Marca:** a marca do produto.
+* **Categorias:** as categorias às quais o produto pertence (extraídas do breadcrumb).
+* **Descrição:** uma breve descrição do produto.
+* **SKUs (Variações):** informações sobre as diferentes variações do produto, incluindo nome, preço atual, preço antigo (se disponível), disponibilidade e SKU.
+* **Propriedades:** as propriedades listadas na seção "Additional properties" da página, no formato de "label": "value".
+* **Reviews:** as avaliações dos clientes, incluindo nome do avaliador, data da avaliação, pontuação (estrelas) e o texto da avaliação.
+* **Nota Média das Reviews:** a média das pontuações das avaliações.
+* **URL da Página:** a URL da página do produto.
 
 ## 🟣 Como Executar
 
@@ -41,17 +41,17 @@ O scraper que desenvolvi é capaz de extrair as seguintes informações da pági
 3.  **Resultado:**
     * Um arquivo chamado `produto.json` será gerado no mesmo diretório, contendo os dados extraídos da página no formato JSON especificado pelo desafio.
 
-## 🔴 Dificuldades Encontradas
+## 🔴 Dificuldades Encontradas: 
 
-**Extração da seção "Product properties":**  
+** Extração da seção "Product properties":**  
 Durante o desenvolvimento, enfrentei dificuldades para extrair os dados da seção "Product properties" de forma consistente. As tentativas de seleção e interpretação da estrutura da tabela não retornaram os dados esperados. Para priorizar a entrega de um JSON funcional e respeitar o prazo, optei por remover temporariamente a extração dessa seção. Atualmente, o scraper coleta apenas os dados da seção "Additional properties".
 
 
-**🟡 Considerações de Performance:** Para este desafio, o scraper funciona bem para uma página. Mas se precisasse pegar informações de muitas páginas ou de sites muito grandes, talvez ele precisasse ser mais eficiente para não demorar muito.
+**🟡 Considerações de Performance:** para este desafio, o scraper funciona bem para uma página. Mas se precisasse pegar informações de muitas páginas ou de sites muito grandes, talvez ele precisasse ser mais eficiente para não demorar muito.
 
 ## 🟢 Próximos Passos e Melhorias
 
-* **Investigar a fundo a extração das "Product properties":** Dedicar mais tempo analisando a estrutura do HTML dessa seção para identificar um seletor confiável e corrigir a lógica de extração.
+* **Investigar a fundo a extração das "Product properties":** dedicar mais tempo analisando a estrutura do HTML dessa seção para identificar um seletor confiável e corrigir a lógica de extração.
 
 ## 🦇 Autor
 
