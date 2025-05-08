@@ -1,4 +1,4 @@
-# Web Scraper para Página de Produto – Take-Home Coding Challenge | Infosimples
+# 💡 Web Scraper para Página de Produto – Take-Home Coding Challenge | Infosimples
 
 Meu objetivo neste desafio foi desenvolver um scraper para uma página web simples. Mesmo sem experiência prévia em web scraping, utilizei os exemplos e tutoriais fornecidos para construir uma solução do zero, utilizando a linguagem Python.
 
